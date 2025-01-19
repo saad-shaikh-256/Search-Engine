@@ -154,6 +154,7 @@ main {
 
       p {
          width: 90%;
+         font-size: 0.75rem;
          margin-bottom: 0.75rem
       }
 
@@ -199,7 +200,8 @@ main {
       }
 
       p {
-         width: 70%;
+         width: 90%;
+         font-size: .85rem;
          margin-bottom: 1rem
       }
 
@@ -246,6 +248,7 @@ main {
 
       p {
          width: 80%;
+         font-size: .85rem;
          margin-bottom: 1.5rem
       }
 
