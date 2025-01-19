@@ -69,6 +69,265 @@ nav {
    }
 }
 
-#hamButton{
+#hamButton {
    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+   nav {
+      padding: 28px 24px;
+      font-size: 20px;
+      position: relative;
+   }
+
+   #leftLink {
+      font-size: 28px;
+   }
+
+   #centerLink,
+   #rightLink {
+      display: none;
+   }
+
+   #hamButton {
+      display: block;
+      cursor: pointer;
+   }
+
+   .menu-active #centerLink {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: var(--white-color);
+      padding: 10px;
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      transition: 0.5s ease;
+   }
+
+   .menu-active #rightLink {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 190px;
+      right: 0;
+      background-color: var(--white-color);
+      padding: 10px;
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      transition: 0.5s ease;
+   }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+   nav {
+      padding: 28px 24px;
+      font-size: 20px;
+      position: relative;
+   }
+
+   #leftLink {
+      font-size: 28px;
+   }
+
+   #centerLink,
+   #rightLink {
+      display: none;
+   }
+
+   #hamButton {
+      display: block;
+      cursor: pointer;
+   }
+
+   .menu-active #centerLink {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: var(--white-color);
+      padding: 10px;
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      transition: 0.5s ease;
+   }
+
+   .menu-active #rightLink {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 190px;
+      right: 0;
+      background-color: var(--white-color);
+      padding: 10px;
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      transition: 0.5s ease;
+   }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+   nav {
+      padding: 28px 48px;
+      font-size: 20px;
+      position: relative;
+   }
+
+   #leftLink {
+      font-size: 28px;
+   }
+
+   #centerLink,
+   #rightLink {
+      display: none;
+   }
+
+   #hamButton {
+      display: block;
+      cursor: pointer;
+   }
+
+   .menu-active #centerLink {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: var(--white-color);
+      padding: 10px;
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      transition: 0.5s ease;
+   }
+
+   .menu-active #rightLink {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 190px;
+      right: 0;
+      background-color: var(--white-color);
+      padding: 10px;
+      width: 100%;
+      font-size: 18px;
+      padding: 10px;
+      transition: 0.5s ease;
+   }
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+   nav {
+      padding: 28px 48px;
+      font-size: 20px;
+   }
+
+   #leftLink {
+      font-size: 28px;
+   }
+
+   #centerLink,
+   #rightLink {
+      gap: 1rem;
+
+      a {
+
+         &:hover {
+            font-size: 22px;
+         }
+      }
+   }
+
+   #hamButton {
+      display: none;
+   }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+   nav {
+      padding: 28px 48px;
+      font-size: 20px;
+   }
+
+   #leftLink {
+      font-size: 28px;
+   }
+
+   #centerLink,
+   #rightLink {
+      gap: 1rem;
+
+      a {
+
+         &:hover {
+            font-size: 22px;
+         }
+      }
+   }
+
+   #hamButton {
+      display: none;
+   }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+   nav {
+      padding: 28px 48px;
+      font-size: 20px;
+   }
+
+   #leftLink {
+      font-size: 28px;
+   }
+
+   #centerLink,
+   #rightLink {
+      gap: 1rem;
+
+      a {
+
+         &:hover {
+            font-size: 22px;
+         }
+      }
+   }
+
+   #hamButton {
+      display: none;
+   }
+}
+
+@media (min-width: 1601px) {
+   nav {
+      padding: 28px 48px;
+      font-size: 20px;
+   }
+
+   #leftLink {
+      font-size: 28px;
+   }
+
+   #centerLink,
+   #rightLink {
+      gap: 1rem;
+
+      a {
+
+         &:hover {
+            font-size: 22px;
+         }
+      }
+   }
+
+   #hamButton {
+      display: none;
+   }
 }
