@@ -1,4 +1,4 @@
-# Search-Link
+# Search-Engine
 
 ![Search-Link](https://github.com/saad-shaikh-256/Search-Engine/blob/main/Full%20Cover.jpg)
 
