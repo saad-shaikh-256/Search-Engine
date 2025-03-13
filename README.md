@@ -55,4 +55,3 @@ To run this project locally, follow these steps:
 ---
 
 🚀 **Designed & Developed by [Saad Shaikh](https://saad-shaikh.vercel.app/)**
-```
